@@ -1,6 +1,8 @@
 <template>
   <div>
-    <input v-model="country" type="text" />
+    <div>
+      <input v-model="country" type="text" class="country" placeholder="input country name..." />
+    </div>
     <List :coronaData="response" />
   </div>
 </template>
@@ -29,9 +31,12 @@ export default class Corona extends Vue {
     );
     return filteredData;
   }
-
-  handleSubmit() {
-    console.log("submit");
-  }
 }
 </script>
+
+<style scoped>
+.country {
+  width: 400px;
+  margin: 30px auto;
+}
+</style>

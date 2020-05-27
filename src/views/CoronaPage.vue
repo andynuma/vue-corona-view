@@ -1,17 +1,18 @@
 <template>
   <div class="wrapper">
+    <h1>Corona Virus Statistics</h1>
     <Corona />
   </div>
 </template>
 
 <script lang="ts">
-import Corona from '@/components/Corona/Corona.vue';
+import Corona from "@/components/Corona/Corona.vue";
 
 export default {
-  name: 'CoronaPage',
+  name: "CoronaPage",
   components: {
-    Corona,
-  },
+    Corona
+  }
 };
 </script>
 
