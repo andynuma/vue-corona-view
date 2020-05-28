@@ -3,7 +3,7 @@
     <h1>This is an about page</h1>
     <p>
       Data Source is
-      <a href="https://github.com/javieraviles/covidAPI" target="_blank">here</a>.
+      <a href="https://github.com/mathdroid/covid-19-api" target="_blank">here</a>.
     </p>
   </div>
 </template>
