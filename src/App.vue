@@ -1,6 +1,6 @@
 <template>
-  <div id="app">
-    <div id="nav">
+  <div>
+    <div class="header">
       <router-link to="/">Corona</router-link>
       <span>|</span>
       <router-link to="/about">About</router-link>
@@ -21,4 +21,8 @@ export default Vue.extend({
 </script>
 
 <style>
+.header {
+  float: right;
+  padding-right: 4%;
+}
 </style>

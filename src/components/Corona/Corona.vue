@@ -1,7 +1,7 @@
 <template>
   <div>
     <div>
-      <input v-model="country" type="text" class="country" placeholder="input country name..." />
+      <a-input v-model="country" type="text" class="country" placeholder="input country name..." />
     </div>
     <List :coronaData="response" />
   </div>
