@@ -20,7 +20,6 @@ import List from "./List.vue";
 })
 export default class Corona extends Vue {
   country = "";
-  features = coronaModule.features;
 
   get response() {
     const features = coronaModule.features;
